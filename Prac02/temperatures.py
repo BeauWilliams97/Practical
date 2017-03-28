@@ -9,8 +9,8 @@ def main():
             print(c_to_f)
         elif choice == "F":
             fahrenheit = float(input("Fahrenheit: "))
-            f_to_c = fahrenheit_to_celsius(fahrenheit)
-            print(f_to_c)
+            celsius = fahrenheit_to_celsius(fahrenheit)
+            print(celsius)
         else:
             print("Invalid option")
         print(MENU)
